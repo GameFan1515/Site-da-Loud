@@ -1,0 +1,63 @@
+body {
+
+background-image: url(./Parceiros.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+	justify-content: space-between; /* não copiar essa tag em outros codigos */
+}
+
+#Home ul li a {                    
+	color: #FFF; 
+	display: inline-block;
+	text-decoration: none;
+	transition: background .4s;
+    margin-right: 145px;
+}
+
+#Home ul {
+    list-style: none;
+    text-align: center;
+    
+}    
+
+#Home ul li{
+    display: inline;
+ 
+    
+} 
+               
+#Home ul li a:hover {  
+	background-color: #2c2c2d;
+	
+	
+
+} 
+
+
+
+body{
+background-color: rgb(28, 29, 29);
+
+
+}
+
+#Home  {
+
+background-color: rgb(0, 0, 0);
+display: flex;
+padding-top: 20px;
+padding-bottom: 17px;
+
+}

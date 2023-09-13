@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+	justify-content: space-between; /* não copiar essa tag em outros codigos */
+}
+
+#Home ul li a {
+	color: #FFF;
+	display: inline-block;
+	text-decoration: none;
+	transition: background .4s;
+    margin-right: 145px;
+}
+
+#Home ul {
+    list-style: none;
+    text-align: center;
+    
+	
+}    
+
+#Home ul li{
+    display: inline;
+ 
+    
+} 
+               
+#Home ul li a:hover {  
+	background-color: #2c2c2d;
+
+} 
+
+
+
+body{
+background-color: rgb(18, 18, 18);
+
+
+}
+
+#Home  {
+display: flex;
+padding-top: 20px;
+padding-bottom: 17px;
+
+}
+
+
+main .Parceiros {
+
+	width: 95%;
+	height: 40%;
+	color: #FFF;
+	
+
+}
+
+.Parceiros img {
+
+    padding-right: 3%;
+    margin-left: 14%; 
+    margin-top: 18%;
+    height: 250px;
+    width: 270px;
+    
+}
+
+#Home  {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    
+    }
+
+h1 {
+   
+    margin-left: 45px;
+    margin-top: 45px;
+    font-size: 200%;
+}
+
+.imagem-com-link {
+    position: relative;
+    display: inline-block;
+}
+
+.texto {
+    position: absolute;
+    top: 57%;
+    left: 68%;
+    transform: translate(-50%, -50%); /* Move o texto de volta pela metade de sua própria largura e altura */
+    background-color: rgba(0, 0, 0, 0.); /* Fundo semi-transparente */
+    color: #00ff1e;
+    padding: 10px;
+    opacity: 0; /* Inicialmente, o texto é invisível */
+    transition: opacity 0.3s ease-in-out; /* Adiciona uma animação de transição suave */
+  }
+  
+  .imagem-com-link:hover .texto {
+    opacity: 1; /* Quando o mouse passar por cima, o texto fica visível */
+  }
+
